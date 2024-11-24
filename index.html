@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>オリジナルサイト</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sawarabi+Gothic&display=swap"
+        rel="stylesheet">
+    <!-- プラグイン「slick」のcssを読み込む -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/99533e1ed0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <img src="img/logo.jpg" alt="">
+            <ul>
+                <li><a href="#">トップ</a></li>
+                <li><a href="#">保護猫を探す</a></li>
+                <li><a href="#">譲渡会情報</a></li>
+                <li><a href="#">保護猫活動について</a></li>
+                <li><a href="#">ボランティア希望の方</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="navi">
+            <li><a href="#">トップ</a></li>
+            <li><a href="#">保護猫を探す</a></li>
+            <li><a href="#">譲渡会情報</a></li>
+            <li><a href="#">保護猫活動について</a></li>
+            <li><a href="#">ボランティア希望の方</a></li>
+        </ul>
+        <div id="mask"></div>
+    </header>
+
+    <div class="mainvisual">
+        <div class="tops">
+            <div class="text">
+                <p>猫も</p>
+                <p>あなたも</p>
+                <p>幸せになる出会い</p>
+            </div>
+            <a class="btn" href="#">保護猫を探す</a>
+        </div>
+        <ul class="fade">
+            <li><img src="img/mainvisual1.jpg" alt=""></li>
+            <li><img src="img/mainvisual3.jpg" alt=""></li>
+            <li><img src="img/mainvisual4.jpg" alt=""></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="about" id="about">
+            <h3 class="section-title">私たちについて</h3>
+            <div class="wrapper">
+                <div class="about-image">
+                    <img src="img/about1.jpg" alt="">
+                    <img src="img/about2.jpg" class="straycat1" alt="">
+                    <img src="img/about3.jpg" alt="">
+                </div>
+                <svg viewBox="20 22 180 180" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#F3C4AD"
+                        d="M48.1,-58.9C60.8,-46.7,68.3,-30.1,72,-12.2C75.7,5.6,75.5,24.5,67.4,39.2C59.3,53.9,43.2,64.3,25.2,72.1C7.2,79.9,-12.8,85,-28.1,78.8C-43.5,72.6,-54.1,55,-60.1,37.9C-66,20.9,-67.3,4.4,-63.3,-10C-59.3,-24.3,-50.1,-36.5,-38.7,-48.9C-27.3,-61.3,-13.6,-73.8,2,-76.3C17.7,-78.7,35.5,-71.1,48.1,-58.9Z"
+                        transform="translate(100 100)" />
+                </svg>
+                <div class="text">
+                    <p>この活動に取り組む理由は、
+                        助けを必要<br>
+                        としている猫たちが安心して暮らせる環境を作りたい<br>
+                        という思いからです。捨てられたり、虐待を受けたり、野良として厳しい生活を強いられている猫が多く存在します。
+                        この活動を通じて、動物に対する意識を高め、命の大切さを広めることで、捨て猫や野良猫の問題が減少することを願っています。</p>
+                    <a href="#">私たちの活動をもっと見る</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="new" id="new">
+            <h3 class="section-title">新入り保護猫</h3>
+            <div class="wrapper">
+                <ul class="slideshow">
+                    <li class="contents">
+                        <img src="img/newcomer1.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/1</div>
+                            <div class="type">♀ | 茶トラ | 東京</div>
+                        </div>
+                        <p>とても甘えん坊で、人懐っこい性格です。撫でられるのが大好きで、膝の上に乗ってくつろぐのが得意です。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer2.jpg" alt="">
+                        <div class="info">
+                            <div class="date">2024/11/1</div>
+                            <div class="type">♂ | 雑種 | 大阪</div>
+                        </div>
+                        <p>他の猫とも仲良くできる穏やかな子で、静かな環境でのんびり過ごすのが好きです。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer3.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/1</div>
+                            <div class="type">♀ | 白猫 | 京都</div>
+                        </div>
+                        <p>初めての場所や人に少しだけ警戒心を見せることもありますが、慣れるとすぐにゴロゴロと喉を鳴らして甘えてきます。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer4.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/1</div>
+                            <div class="type">♂ | 黒猫 | 愛知</div>
+                        </div>
+                        <p>いつも人のそばにいたがり、膝の上に乗ったり、スリスリしたりするのが大好きです。愛情を求める姿がとても可愛らしいです。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                </ul>
+
+                <ul class="slideshow">
+                    <li class="contents">
+                        <img src="img/newcomer5.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/2</div>
+                            <div class="type">♀ | 雑種 | 福岡</div>
+                        </div>
+                        <p>普段はクールに見えますが、時折甘えてくる一面を見せる猫です。まるで自分のペースで愛情を表現するようで、そのギャップが魅力的です。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer6.jpg" alt="">
+                        <div class="info">
+                            <div class="date">2024/11/2</div>
+                            <div class="type">♂ | キジシロ | 茨城</div>
+                        </div>
+                        <p>新しい物や場所に対して興味津々で、家の中を探検するのが大好きです。何にでも関心を示し、ちょっとしたいたずらも楽しむ冒険者です。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer7.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/2</div>
+                            <div class="type">♀ | 白黒 | 栃木</div>
+                        </div>
+                        <p>のんびりした性格で、急いで行動することが少なく、リラックスした時間を好みます。静かな環境で過ごすのが得意です。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer8.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/2</div>
+                            <div class="type">♂ | ラグドール | 神奈川</div>
+                        </div>
+                        <p>自分の意見をはっきりと示す猫で、ご飯や遊びを要求する際に大きな声で鳴いたり、目の前に立ちふさがったりします。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                </ul>
+
+                <ul class="slideshow">
+                    <li class="contents">
+                        <img src="img/newcomer9.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/3</div>
+                            <div class="type">♀ | 雑種 | 東京</div>
+                        </div>
+                        <p>好奇心から物を落としたり、家具に登ったりするのが得意な猫です。遊び心が強く、エネルギッシュに遊ぶ姿が愛らしいです。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer10.jpg" alt="">
+                        <div class="info">
+                            <div class="date">2024/11/3</div>
+                            <div class="type">♂ | ソマリ | 大阪</div>
+                        </div>
+                        <p>愛情表現として、手や指を軽く噛むことがあります。愛らしい行動で、遊びたい気持ちを示しています。
+                        </p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer11.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/3</div>
+                            <div class="type">♀ | マンチカン | 千葉</div>
+                        </div>
+                        <p>外からの音や動きに敏感で、臆病な一面があります。安全を確認するまで、周囲をじっくり観察します。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                    <li class="contents">
+                        <img src="img/newcomer12.jpg" alt="">
+                        <div class="info">
+                            <div class="date">202411/3</div>
+                            <div class="type">♂ | 黒猫 | 広島</div>
+                        </div>
+                        <p>頭の回転が速く、ドアを開けたり、複雑なおもちゃをすぐに理解したりします。知能が高く、遊びにも工夫が求められます。</p>
+                        <a href="#">詳細情報を見る</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="new-btn">
+                <a href="#">保護猫を探す</a>
+            </div>
+        </section>
+
+        <section class="flow" id="flow">
+            <h3 class="section-title">譲渡の流れ </h3>
+            <div class="wrapper">
+                <ul class="time-schedule">
+                    <li>
+                        <span class="step">STEP1</span>
+                        <div class="sch_box">
+                            <p class="sch_title">希望する猫の相談・面談</p>
+                            <p class="sch_tx">
+                                気になる猫が見つかったら、保猫の性格や生活環境についての説明を受けていただきます。また、里親になるための条件についてもお伝えし、どのような環境で猫を飼おうとしているかを詳細を伺います。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="step">STEP2</span>
+                        <div class="sch_box">
+                            <p class="sch_title">お見合い（面会）</p>
+                            <p class="sch_tx">
+                                実際に猫に会う「お見合い」を行います。このとき、猫の性格や相性を確認することができます。猫がまだ環境に不安を感じている場合もあるので、焦らずにじっくりと観察します。ここでお互いにフィーリングが合えば、譲渡が進むことが多いです。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="step">STEP3</span>
+                        <div class="sch_box">
+                            <p class="sch_title">トライアル期間(仮譲渡)</p>
+                            <p class="sch_tx">
+                                保護猫を迎えるにあたり、「トライアル期間」を設けています。これは、正式な譲渡の前に、一定期間（1〜2週間程度）家で猫を飼育し、実際に生活できるかどうかを確認するプロセスです。この期間中に猫のストレスや相性を見ながら、最終的に譲渡を決定します。
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="step">STEP4</span>
+                        <div class="sch_box">
+                            <p class="sch_title">正式譲渡</p>
+                            <p class="sch_tx">
+                                トライアル期間が無事に終わり、猫との生活が問題なく進んでいる場合、正式に譲渡が完了します。この時点で、猫は新しい家族として正式に迎えられ、私たちからのサポートも終了します。
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <h3 class="section-title">体験談</h3>
+            <div class="wrapper">
+                <div class="episode" id="episode1">
+                    <img src="img/experience1.jpg" alt="">
+                    <div class="text">
+                        家に連れて帰った初日、彼女はあまり動かず、隠れて過ごしていました。数日が経つと、少しずつ部屋を歩き回り、私たち家族の近くにやって来るようになりました。
+                        ある夜、彼女が私の膝の上にそっと乗り、喉をゴロゴロと鳴らし始めた瞬間、心が温かくなったのを覚えています。それからは、毎日のように彼女との絆が深まり、彼女の個性もどんどん見えてきました.
+                        家族みんなで遊んだり、一緒に過ごす時間がとても幸せで、家の中が以前よりも明るくなった気がします。
+                    </div>
+                </div>
+                <div class="episode" id="episode2">
+                    <div class="text">
+                        最初は少し警戒心が強く、最初は部屋の隅でじっとしていることが多かったです。正直、最初の数日は「うまく馴染んでくれるかな？」と不安でしたが、無理に触れず、彼が自分から出てくるのを待つことにしました。
+                        一週間ほど経った頃、ある日突然、彼が自分からそっと私の側に寄ってきて、手をちょんちょんと触れてきたのです。その瞬間、少しずつ心を開いてくれているんだと感じ、すごく嬉しかったです。
+
+                        今では、私たちが帰宅すると玄関までお出迎えしてくれるほどになり、彼との絆が深まっているのを実感しています。</div>
+                    <img src="img/experience2.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="question" id="question">
+            <h3 class="section-title">よくある質問</h3>
+            <div class="accordion-wrap">
+                <dl class="accordion-item">
+                    <dt class="title">Q. 保護猫と普通の猫の違いはありますか？
+                    </dt>
+                    <dd class="content">
+                        保護猫は、捨てられたり迷子になったりして保護施設や里親を探している猫のことです。普通の猫（ペットショップやブリーダーから迎える猫）とは異なり、保護猫は過去のトラウマや病気のリスクがある場合が多く、環境に慣れるまで時間がかかることがあります。そのため、慎重な接し方や心のケアが特に重要です。
+                    </dd>
+                </dl>
+                <dl class="accordion-item">
+                    <dt class="title">Q. 保護猫はすぐに人に懐きますか？
+                    </dt>
+                    <dd class="content">
+                        保護猫は、過去の経験や性格によって人に懐くまでに時間がかかる場合があります。すぐに懐く猫もいますが、多くの保護猫は警戒心が強く、新しい環境や人に慣れるための忍耐と優しい接し方が必要です。
+                    </dd>
+                </dl>
+                <dl class="accordion-item">
+                    <dt class="title">Q. 他のペットや家族ともうまくやっていけますか？
+                    </dt>
+                    <dd class="content">
+                        保護猫が家族や他のペットとうまくやっていけるかは、性格や過去の経験に左右されます。時間をかけて少しずつ慣れさせれば、うまく共存できる場合が多いですが、猫によっては相性が合わず難しいこともあります。
+                    </dd>
+                </dl>
+                <dl class="accordion-item">
+                    <dt class="title">Q. どのくらいの費用がかかりますか？
+                    </dt>
+                    <dd class="content">
+                        保護猫を迎える際の費用は、初期検診、ワクチン接種、避妊・去勢手術などで1〜3万円程度が目安です。また、キャットフードやトイレなどの基本グッズ代も含めると、合計で3〜5万円ほどかかることが多いです。
+                    </dd>
+                </dl>
+                <dl class="accordion-item">
+                    <dt class="title">Q. 猫を飼ったことがない人でもお迎えできますか?
+                    </dt>
+                    <dd class="content">
+                        猫を飼ったことがない人でも、正しい知識を持ち、愛情と責任をもって世話をすれば保護猫を迎えることは可能です。初めての場合は、保護団体や動物病院に相談しながら進めると安心です。</dd>
+                </dl>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="buttons">
+                <div class="footer-btn"><a href="#">保護猫を迎えたい方</a></div>
+                <div class="footer-btn"><a href="#">ボランティア希望の方</a></div>
+            </div>
+            <ul class="menu">
+                <li><a href="">会社概要</a></li>
+                <li><a href="">譲渡会情報</a></li>
+                <li><a href="">保護猫活動について</a></li>
+                <li><a href="">ブログ</a></li>
+            </ul>
+            <ul class="sns-btn">
+                <li><a href="#"><i class="fa-brands fa-facebook fa-4x"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-4x"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter fa-4x"></i></a></li>
+            </ul>
+        </div>
+        <p class="copyright">@2024年猫の家</p>
+    </footer>
+
+    <!-- プラグイン「slick」のjsを読み込む -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
